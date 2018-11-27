@@ -26,6 +26,7 @@ def imageGrab():
     grayImage = ImageOps.grayscale(image)
     a = array(grayImage.getcolors())
     print(a.sum())
+    return a.sum()
 
 def main():
     restartGame()
